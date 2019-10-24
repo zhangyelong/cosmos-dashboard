@@ -17,7 +17,7 @@
     "gnetId": null,
     "graphTooltip": 0,
     "id": 15,
-    "iteration": 1571905015751,
+    "iteration": 1571905700768,
     "links": [],
     "panels": [
         {
@@ -477,7 +477,7 @@
                     "format": "locale",
                     "label": "",
                     "logBase": 1,
-                    "max": "120",
+                    "max": null,
                     "min": "0",
                     "show": true
                 },
@@ -1373,6 +1373,7 @@
             {
                 "allValue": null,
                 "current": {
+                    "tags": [],
                     "text": "cosmoshub-2",
                     "value": "cosmoshub-2"
                 },
@@ -1454,5 +1455,5 @@
     "timezone": "",
     "title": "Cosmos Blockchains",
     "uid": "UJyurCTWz",
-    "version": 8
+    "version": 9
 }
