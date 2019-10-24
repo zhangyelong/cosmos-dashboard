@@ -17,7 +17,7 @@
     "gnetId": null,
     "graphTooltip": 0,
     "id": 15,
-    "iteration": 1571905015749,
+    "iteration": 1571905015751,
     "links": [],
     "panels": [
         {
@@ -821,8 +821,8 @@
             "scopedVars": {
                 "instance": {
                     "selected": true,
-                    "text": "10.4.1.43:16660",
-                    "value": "10.4.1.43:16660"
+                    "text": "node-0",
+                    "value": "node-0"
                 }
             },
             "title": "instance overview: $instance",
@@ -879,8 +879,8 @@
             "scopedVars": {
                 "instance": {
                     "selected": true,
-                    "text": "10.4.1.43:16660",
-                    "value": "10.4.1.43:16660"
+                    "text": "node-0",
+                    "value": "node-0"
                 }
             },
             "targets": [
@@ -949,8 +949,8 @@
             "scopedVars": {
                 "instance": {
                     "selected": true,
-                    "text": "10.4.1.43:16660",
-                    "value": "10.4.1.43:16660"
+                    "text": "node-0",
+                    "value": "node-0"
                 }
             },
             "targets": [
@@ -1022,8 +1022,8 @@
             "scopedVars": {
                 "instance": {
                     "selected": true,
-                    "text": "10.4.1.43:16660",
-                    "value": "10.4.1.43:16660"
+                    "text": "node-0",
+                    "value": "node-0"
                 }
             },
             "sparkline": {
@@ -1112,8 +1112,8 @@
             "scopedVars": {
                 "instance": {
                     "selected": true,
-                    "text": "10.4.1.43:16660",
-                    "value": "10.4.1.43:16660"
+                    "text": "node-0",
+                    "value": "node-0"
                 }
             },
             "sparkline": {
@@ -1182,8 +1182,8 @@
             "scopedVars": {
                 "instance": {
                     "selected": true,
-                    "text": "10.4.1.43:16660",
-                    "value": "10.4.1.43:16660"
+                    "text": "node-0",
+                    "value": "node-0"
                 }
             },
             "seriesOverrides": [],
@@ -1281,8 +1281,8 @@
             "scopedVars": {
                 "instance": {
                     "selected": true,
-                    "text": "10.4.1.43:16660",
-                    "value": "10.4.1.43:16660"
+                    "text": "node-0",
+                    "value": "node-0"
                 }
             },
             "seriesOverrides": [],
@@ -1354,8 +1354,9 @@
             {
                 "current": {
                     "selected": true,
-                    "text": "Prometheus-ali",
-                    "value": "Prometheus-ali"
+                    "tags": [],
+                    "text": "prometheus",
+                    "value": "prometheus"
                 },
                 "hide": 0,
                 "includeAll": false,
@@ -1372,9 +1373,8 @@
             {
                 "allValue": null,
                 "current": {
-                    "selected": false,
-                    "text": "iov-mainnet",
-                    "value": "iov-mainnet"
+                    "text": "cosmoshub-2",
+                    "value": "cosmoshub-2"
                 },
                 "datasource": "$DS",
                 "definition": "label_values(tendermint_consensus_height, chain_id)",
@@ -1398,9 +1398,8 @@
             {
                 "allValue": "",
                 "current": {
-                    "selected": true,
-                    "text": "10.4.1.43:16660",
-                    "value": "10.4.1.43:16660"
+                    "text": "node-0",
+                    "value": "node-0"
                 },
                 "datasource": "$DS",
                 "definition": "label_values(tendermint_consensus_height{chain_id=\"$chain_id\"}, instance)",
@@ -1455,5 +1454,5 @@
     "timezone": "",
     "title": "Cosmos Blockchains",
     "uid": "UJyurCTWz",
-    "version": 7
+    "version": 8
 }
