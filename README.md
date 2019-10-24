@@ -46,6 +46,6 @@ curl -X POST http://<PROMETHEUS-IP>:9090/-/reload
 
 ### Import Grafana Dashboard
 
-Copy the content of [cosmos-dashboard.json](cosmos-dashboard.json) and paste into Grafana, click on `Load` to complete importing.
+Copy and paste the [Grafana Dashboard ID](https://grafana.com/grafana/dashboards/11036) `11036` OR content of [cosmos-dashboard.json](cosmos-dashboard.json), click on `Load` to complete importing.
 
 ![import](imgs/import.jpg)
